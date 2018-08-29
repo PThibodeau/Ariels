@@ -1,0 +1,16 @@
+#title{
+    cursor: default;
+}
+#menuError{
+    color: red;
+}
+#menuItems ul{
+    list-style-type: none;
+}
+#menuItems ul li{
+    width: 10em;
+    cursor: pointer;
+}
+#menuItems ul li:hover{
+    background-color: lightsalmon;
+}

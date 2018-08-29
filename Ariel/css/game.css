@@ -1,0 +1,17 @@
+#message{
+    display: inline;
+}
+
+body{
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+#TextDisplay{
+	display: block;
+	position: absolute;
+	height: 40px;
+	width: 100%;
+	background-color: transparent;
+	color: white;
+}

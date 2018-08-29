@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Ariel</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <script src="./js/menu.js"></script>
+    <script src="./js/thirdparty/three.js"></script>
+  </head>
+  <body>
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+    </script>
+    <div id="titleMenu">
+        <div id="title">
+          Welcome To Ariel
+        </div>
+        <div id="menuItems">
+          <ul>
+            <li onclick="menuItemSelect(0)">New Game</li>
+            <li onclick="menuItemSelect(1)">Continue</li>
+            <li onclick="menuItemSelect(2)">Exit</li>
+          </ul>
+          <error id="menuError" class="error"></error>
+        </div>
+      </div>
+  </body>
+</html>
