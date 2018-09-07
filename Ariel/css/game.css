@@ -6,6 +6,7 @@ body{
 	padding: 0px;
 	margin: 0px;
 	overflow: hidden;
+	color: white;
 }
 #TextDisplay{
 	display: block;
@@ -14,4 +15,11 @@ body{
 	width: 100%;
 	background-color: transparent;
 	color: white;
+}
+#clickMe{
+	text-align: center;
+	background-color: transparent;
+	position: absolute; 
+	height: 100%; 
+	width: 100%
 }
